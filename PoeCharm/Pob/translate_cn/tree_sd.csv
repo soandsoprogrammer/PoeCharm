@@ -952,6 +952,7 @@
 "20% more Damage with Ignite","点燃总伤害额外提高 20%"
 "30% increased Effect of non-Damaging Ailments on Enemies","对敌人施加的非伤害性异常状态效果的伤害提高 30%"
 "Shocks from your Hits always increase Damage taken by at least 15%","你击中造成的感电效果始终使受到的伤害提高至少 15%"
+"Shocks from your Hits always increase Damage taken by at least 25%","你击中造成的感电效果始终使受到的伤害提高至少 25%"
 "20% increased Damage per Summoned Golem","每个召唤的魔像可使伤害提高 20%"
 "25% increased Effect of Buffs granted by your Golems per Summoned Golem","每个召唤的魔像可使它们为你提供的增益效果提高 25%"
 "Damage penetrates 25% Cold Resistance while affected by Herald of Ice","受到【寒冰之捷】影响时，伤害穿透 25% 冰霜抗性"
@@ -1334,6 +1335,8 @@
 "Damage Penetrates 15% Fire Resistance","伤害穿透 15% 火焰抗性"
 "Cursed Enemies you or your Minions Kill have a 25% chance to Explode, dealing a quarter of their maximum Life as Chaos Damage","你或你的召唤生物击败的受诅咒敌人有 25% 几率爆炸，造成等同该敌人最大生命四分之一的混沌伤害"
 "Regenerate 40 Energy Shield per second","每秒回复 40 能量护盾"
+"Regenerate 100 Energy Shield per second","每秒再生 100 点能量护盾"
+"Maximum Energy Shield is increased by Chance to Block Spell Damage","最大能量护盾按照法术伤害格挡几率提高"
 "Regenerate 1% of Energy Shield per second for each",近期内，你或你的召唤生物每击败一个敌人
 "Enemy you or your Minions have Killed Recently, up to 10% per second","则每秒回复你 1% 能量护盾，每秒最多 10%"
 "Nearby Enemies have -20% to Cold Resistance","周围敌人获得 -20% 冰霜抗性"
@@ -2010,8 +2013,10 @@
 "6% increased Damage per Power Charge","每个暴击球使伤害提高 6%"
 "15% more Chaos Damage","总混沌伤害总增 15%"
 "15% more Cold Damage","总冰霜伤害总增 15%"
+"Every 4 seconds, 50% chance to Freeze nearby Non-Frozen Enemies for 0.4 seconds","每 4 秒有 50% 的几率冻结周围未被冻结的敌人，持续 0.4 秒"
 "Summoned Golems are Resummoned 4 seconds after being Killed","召唤的魔像被击败 4 秒后会被重新召唤"
 "+1 to maximum number of Summoned Golems","召唤魔像的数量上限 +1"
+"+2 to maximum number of Summoned Golems","召唤魔像的数量上限 +2"
 "25% increased Damage per Summoned Golem","每个召唤的魔像可使伤害提高 25%"
 "Exposure you inflict applies an extra -25% to the affected Resistance","你施加的曝露效果会使受影响的抗性额外 -25%"
 "Regenerate 1% of Mana per second if you've inflicted Exposure Recently","若近期内你施加过曝露效果，则每秒再生 1% 魔力"
@@ -2026,12 +2031,13 @@
 "40% increased Skill Effect Duration","技能效果持续时间延长 40%"
 "Your Offerings have 50% reduced Effect on you","你的奉献技能对自身的效果降低 50%"
 "Regenerate 8% of Mana over 2 seconds when you Consume a corpse","每吞噬一个灵柩，便每 2 秒回复 8% 魔力"
-"Regenerate 8% of Energy Shield over 2 seconds when you Consume a corpse","每吞噬一个灵柩，便每 2 秒回复 8% 能量护盾"
-"For each nearby corpse, you and nearby Allies Regenerate 5 Mana\nper second, up to 50 per second","周围每个灵枢使你和周围友军每秒回复 5 魔力，最多每秒 50 点"
-"For each nearby corpse, you and nearby Allies Regenerate 0.2% of Energy Shield per second, up to 2.0% per second","周围每个灵枢使你和周围友军每秒回复 0.2% 能量护盾，每秒最多 2.0%"
+"Regenerate 8% of Energy Shield over 2 seconds when you Consume a corpse","消耗灵柩时，在 2 秒内再生 8% 的能量护盾"
+"For each nearby corpse, you and nearby Allies Regenerate 5 Mana\nper second, up to 50 per second","周围每具灵柩使你和周围友军每秒再生 5 点魔力，最多每秒 50 点"
+"For each nearby corpse, you and nearby Allies Regenerate 0.2% of Energy Shield per second, up to 2.0% per second","周围每具灵柩使你和周围友军每秒再生 0.2% 的能量护盾，最多每秒 2%"
 "Auras from your Skills grant 3% increased Attack and Cast\nSpeed to you and Allies","你技能的光环可使你和周围友军的攻击和施法\n速度加快 3%"
 "You and nearby Allies have +30% to Elemental Resistances","你和周围友军的元素抗性 +30%"
 "2% increased Attack and Cast Speed for each corpse Consumed Recently, up to a maximum of 200%","近期内每消耗一具灵枢，都使攻击和施法速度加快 2%，最多 200%"
+"4% increased Attack and Cast Speed for each corpse Consumed Recently, up to a maximum of 200%","近期内每消耗一具灵柩，攻击和施法速度提高 4%，最多提高 200%"
 "Base Critical Strike Chance for Attacks with Weapons is 8%","基础武器暴击率为 8%"
 "20% more Damage with Hits and Ailments against Unique Enemies","对抗传奇敌人时，击中和异常状态伤害总增 20%"
 "20% increased Attack Speed while Leeching","生命偷取时攻击速度加快 20%"
@@ -2375,7 +2381,7 @@
 "Poisons you inflict during any Flask Effect have 20% chance to deal 100% more Damage","在药剂生效期间，你造成的中毒效果有 20% 的几率伤害总增 100%"
 "100% increased Effect of Buffs granted by your Golems","魔像的增益效果提高 100%"
 "Triggers Level 20 Primal Aegis when Allocated\nPrimal Aegis can take 75 Elemental Damage per Allocated Notable Passive Skill","配置时触发 20 级原能护盾\n每个配置的核心天赋都使原能护盾可以承受 75 点元素伤害"
-"Regenerate 4% of Mana over 2 seconds when you Consume a corpse","每吞噬一个灵柩，便每 2 秒回复 4% 魔力"
+"Regenerate 4% of Mana over 2 seconds when you Consume a corpse","消耗灵柩时，在 2 秒内再生 4% 的魔力"
 "20% more Physical Damage over Time","持续物理伤害总增 20%"
 "100% Chance on Hit to Taunt an Enemy","击中时有 100% 的几率嘲讽敌人"
 "Non-Damaging Ailments have 50% reduced Effect on you while you have Arcane Surge","你有秘术增强效果时，你身上的非伤害型异常状态效果降低 50%"
@@ -3034,6 +3040,10 @@ Phasing,迷踪
 "Cursed Enemies you or your Minions Kill have a 50% chance to Explode, dealing a quarter of their maximum Life as Chaos Damage","你或你的召唤生物击败的受诅咒敌人有 50% 的几率爆炸，造成等同该敌人最大生命四分之一的混沌伤害"
 "Your Hexes can affect Hexproof Enemies",你的魔蛊可以影响无咒的敌人
 "Cannot Be Stunned while you have Energy Shield",你有能量护盾时不能被眩晕
+"66% increased Effect of Herald Buffs on you","你身上的捷增益效果提高 66%"
+"66% increased Mana Reservation Efficiency of Herald Skills","捷技能的魔力保留效能提高 66%"
+"33% increased Effect of Herald Buffs on you","你身上的捷增益效果提高 33%"
+"33% increased Mana Reservation Efficiency of Herald Skills","捷技能的魔力保留效能提高 33%"
 "Cannot be Frozen",无法被冰冻
 "Cannot be Chilled",无法被冰缓
 "Cannot take Reflected Elemental Damage",不会承受反射的元素伤害
@@ -3041,6 +3051,8 @@ Phasing,迷踪
 "Summoned Golems are Immune to Elemental Damage",召唤的魔像免疫元素伤害
 "Hits always Ignite",你的击中始终具有点燃效果
 "All Damage can Ignite",所有伤害均可点燃
+"Enemies Ignited by you have 40% of Physical Damage they deal converted to Fire","被你点燃的敌人将其造成物理伤害的 40% 转化为火焰伤害"
+"Enemies Ignited by you have 30% of Physical Damage they deal converted to Fire","被你点燃的敌人将其造成物理伤害的 30% 转化为火焰伤害"
 "Hits always Shock",你的击中始终具有感电效果
 "All Damage can Shock",所有伤害均可感电
 "All Damage with Hits can Chill",所有击中的伤害都有冰缓效果
