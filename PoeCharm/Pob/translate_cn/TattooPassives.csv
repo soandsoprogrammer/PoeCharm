@@ -159,3 +159,5 @@
 "+1% Chance to Block Attack Damage","攻击伤害格挡率 +1%"
 "+6% to Lightning Resistance","闪电抗性 +6%"
 "5% increased Lightning Damage","闪电伤害提高 5%"
+"Take 50% less Damage over Time if you've started taking Damage over Time in the past second","你在开始承受持续伤害后的 1 秒内，受到的持续伤害总降 50%"
+"100% more Duration of Ailments on you","你身上的异常状态持续时间总增 100%"
